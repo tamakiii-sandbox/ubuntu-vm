@@ -8,3 +8,8 @@ provision: up
 
 ssh:
 	vagrant ssh
+
+halt:
+	vagrant halt
+
+restart: halt up
