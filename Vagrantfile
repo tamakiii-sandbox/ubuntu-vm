@@ -46,7 +46,7 @@ Vagrant.configure("2") do |config|
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
   config.vm.synced_folder "~/.dotfiles", "/home/vagrant/.dotfiles", owner: "vagrant", group: "vagrant"
-  config.vm.synced_folder ".", "/repos/vmdevenv", owner: "vagrant", group: "vagrant"
+  config.vm.synced_folder ".", "/repos/ubuntu-vm", owner: "vagrant", group: "vagrant"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.

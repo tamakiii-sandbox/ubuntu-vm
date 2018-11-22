@@ -1,4 +1,4 @@
-# vmdevenv
+# ubuntu-vm
 
 ## Dependencies
 - VirtualBox
